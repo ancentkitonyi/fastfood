@@ -1,0 +1,264 @@
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+body{
+	/*background-color: red;*/
+	font-family: times;
+  font-size: 20px;
+  text-align: justify;
+}
+a:hover{
+  text-decoration: none;
+  color: white;
+}
+h1{
+  font-family: times;
+}
+h2{
+  font-family: times;
+  background-color: #fcba03;
+  text-align: center;
+}
+.row{
+  padding: 30px 0 50px 0;
+}
+.navbar{
+	background-color:rgba(0,0,0,.5);
+}
+.navbar-brand{
+	font-family: 'Great Vibes';
+	color: #fff;
+	text-decoration: none;
+	font-size: 30px;
+}
+nav .navbar-nav a{
+    color: #fff;
+    padding: 25px;
+    margin-right: 50px;
+}
+nav .navbar-nav a:hover {
+    color: #fcba03;
+}
+@media only screen and (max-width:768px){
+	.navbar{
+		background-color: #000;
+		text-align: center;
+	}
+	nav .navbar-nav a{
+	    color: #fff;
+	    padding: 10px;
+	    margin: 0px;
+	}
+	nav .navbar-nav a:hover {
+    	border: 2px solid #fff;
+	}
+	.custom-toggler .navbar-toggler-icon {
+  		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(252,186,3)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+	}
+	.custom-toggler.navbar-toggler {
+  		border-color: rgb(252,186,3);
+	}
+  .abt-info{
+  padding: 5%;
+  text-align: justify;
+  }
+  .admleft, .admright{
+    padding-top: 50px;
+  }
+
+}
+.content {
+  position: absolute;
+  background-color: rgb(0,0,0,.5);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.heading {
+  color: #fcba03;
+  font-family: 'Great Vibes';
+  font-size: 96px;
+  text-shadow: 0 0 2px black;
+  margin-bottom: 8px;
+}
+
+.sub-heading {
+  font-family: 'Great Vibes';
+  color: white;
+  font-size: 40px;
+  text-shadow: 0 0 2px black;
+}
+
+.button-container {
+  margin-top: 64px;
+}
+
+.button {
+  background: #fcba03;
+  border: 5px double white;
+  color: white;
+  padding: 8px 16px;
+  font-size: 24px;
+}
+.button:hover {
+  background: #000;
+  color: #fcba03;
+}
+.topic h1{
+  color: #fcba03;
+  text-align: center;
+  font-family: 'Great Vibes';
+  font-size: 50px;
+  padding-top: 100px;
+  text-decoration:underline solid #fcba03;
+}
+.mymenu{
+  background: #000;
+}
+.nav-tabs {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  /*border: none;*/
+}
+.nav-tabs .nav-link {
+    border-radius: 0;
+    border-bottom: none;
+}
+.nav-tabs a {
+  color: #fff;
+  margin: 0 15px;
+}
+.nav-tabs>a:hover {
+  background: #000;
+  color: #fcba03;
+}
+.nav-tabs>a.active {
+  background: #fcba03 !important;
+  color: #000 !important;
+}
+.product{
+  text-align: center;
+  box-shadow: 0px 0px 5px 6px rgba(252,186,3,0.9);
+  margin-bottom: 25px;
+}
+.food{
+  border-bottom: 1px dashed #fcba03;
+}
+.food, .price{
+  color: white;
+  font-style: italic;
+  font-weight: bold;
+  padding: 5% 10%;
+  text-align: left;
+}
+.ordernow{
+  color: white;
+  background: black;
+  text-align: center;
+  width: 80%;
+  margin-bottom: 3%;
+  box-shadow: 0px 0px 5px 3px rgba(252,186,3,0.9);
+}
+.ordernow:hover{
+  color: black;
+  background-color: #fcba03;
+  box-shadow: none;
+}
+.profile {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: times;
+}
+.title {
+  color: grey;
+  font-size: 18px;
+}
+.profile a{
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+  display: inline;
+}
+.profile a:hover {
+  color: #fcba03;
+}
+.contact{
+  background-color: #000;
+}
+.addressheader h2{
+  color: #fff;
+  text-decoration:underline solid #fcba03;
+  font-family: times;
+}
+.addresscontent{
+  text-decoration: none;
+  color: #fff;
+}
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+
+}
+.icon {
+  padding: 10px;
+  background: black;
+  color: #fcba03;
+  min-width: 50px;
+  text-align: center;
+}
+.send {
+  color: white;
+  background: #fcba03;
+  text-align: center;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  opacity: 0.9;
+}
+.send:hover {
+  opacity: 1;
+}
+.rowpad{
+  margin: 0;
+  padding: 0;
+}
+.day{
+  width: 50%;
+}
+.copyright{
+  text-align: center;
+  color: white;
+}
+
+
+.login{
+  background-color: black;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  position: fixed;
+
+}
+.admleft{
+  bottom: 0px;
+  top: 100px;
+  position: fixed;
+}
+.admright{
+  background-color: white;
+  left:25%;
+
+}
